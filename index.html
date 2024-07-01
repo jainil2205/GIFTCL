@@ -343,13 +343,12 @@
           "
         >
           <span>
-            <h7>Approving Authority</h7>
+            <h7 style="display: flex; justify-content: center;">Approving Authority</h7>
             <input
               type="text"
               name=" "
-              class="signature-box"
+              class="signature-box form-control"
               placeholder=""
-              class="form-control"
             />
           </span>
           <span>
@@ -423,20 +422,24 @@
           </div>
         </div>
 
-        <div style="display: flex; justify-items: center; margin-bottom: 20px">
+        <div style="display: flex; justify-items: center; margin: 20px 0px">
           <button
-            type="button"
-            class="btn btn-secondary"
-            id="saveDraftBtn"
-            style="margin-top: 10px"
+          type="button"
+          class="btn btn-info"
+          id="refreshButton"
           >
-            View all Entries
-          </button>
-          <br />
+          Reset
+        </button>
+        <button
+          type="button"
+          class="btn btn-secondary"
+          id="saveDraftBtn"
+        >
+          View all Entries
+        </button>
           <button
             type="submit"
             class="btn btn-primary"
-            style="margin-top: 10px"
             id="refreshButton"
           >
             Submit
