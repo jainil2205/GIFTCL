@@ -5,7 +5,7 @@ USE internal_approval;
 CREATE TABLE approval_requests (
     id INT AUTO_INCREMENT PRIMARY KEY,
     approvalNote VARCHAR(255),
-    approvalNoteNo VARCHAR(255),
+    approvalNoteNo VARCHAR(255) unique,
     date VARCHAR(255),
     expenseType VARCHAR(255),
     department VARCHAR(255),
